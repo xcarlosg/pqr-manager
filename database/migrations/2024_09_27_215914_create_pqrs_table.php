@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id('pqr_id');
             $table->date('pqr_date');
             $table->string('pqr_type');
-            $table->string('pqr_sendnotification');
+            $table->string('pqr_methodnotify');
             $table->text('pqr_cause');
             $table->text('pqr_observation');
             $table->string('pqr_evidence')->nullable();
